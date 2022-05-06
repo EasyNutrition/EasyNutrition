@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.easynutrition_prototype">
+    package="com.example.easynutrition">
 
     <application
         android:allowBackup="true"
@@ -8,28 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EasyNutrition_Prototype">
-        <activity
-            android:name=".ApplStep3"
-            android:exported="false" />
-        <activity
-            android:name=".ApplStep2"
-            android:exported="false" />
-        <activity
-            android:name=".ApplStep1"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterStepOptional"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterStep3"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterStep2"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterStep1"
-            android:exported="false" />
+        android:theme="@style/Theme.EasyNutrition">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -39,10 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

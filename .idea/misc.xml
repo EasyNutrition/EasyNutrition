@@ -3,20 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/font/.xml" value="0.1" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/font/prompt.xml" value="0.1" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/font/roboto.xml" value="0.1" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/font/roboto_medium.xml" value="0.1" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_appl_step1.xml" value="0.25" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_appl_step2.xml" value="0.33" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_appl_step3.xml" value="0.25" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_main.xml" value="0.17806484295845998" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_register_nutritionist.xml" value="0.33" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_register_step1.xml" value="0.1762917933130699" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_register_step2.xml" value="0.25" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_register_step3.xml" value="0.25" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/activity_register_step_optional.xml" value="0.33" />
-        <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/app/src/main/res/layout/register_nutritionist.xml" value="0.39664804469273746" />
+        <entry key="..\:/App_moviles/EasyNutrition/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/App_moviles/EasyNutrition/app/src/main/res/layout/registeraccount.xml" value="0.25" />
+        <entry key="..\:/App_moviles/EasyNutrition/app/src/main/res/layout/registerpatient.xml" value="0.264" />
+        <entry key="..\:/App_moviles/EasyNutrition/app/src/main/res/layout/registerpatient2.xml" value="0.25" />
       </map>
     </option>
   </component>

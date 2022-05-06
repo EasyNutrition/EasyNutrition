@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".BookAppointmentStepTwo">
+
+    <Button
+        android:id="@+id/btReserveNutrionist"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#47FF86"
+        android:text="@string/btReserveNutrionist"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCardNutritionist"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvIdealAdvisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/tvIdealAdvisor"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailReserve004" />
+
+    <ImageButton
+        android:id="@+id/ibRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/ibRefresh"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toEndOf="@+id/tvIdealAdvisor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_outline_refresh_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvSuscriptionPlan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvPlanSubscription"
+        android:textColor="#121212"
+        app:layout_constraintStart_toEndOf="@+id/tvSeparator4"
+        app:layout_constraintTop_toBottomOf="@+id/tvChats"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvSeparator4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvSeparator"
+        android:textColor="#121212"
+        app:layout_constraintStart_toEndOf="@+id/tvUserRole2"
+        app:layout_constraintTop_toBottomOf="@+id/tvChats"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvChats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvChats"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btBack001"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUserRole2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvUserRole"
+        android:textColor="#121212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChats"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btBack001"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/btBack001"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvReserve002"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserRole2" />
+
+    <ImageView
+        android:id="@+id/ivDetailReserve002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivdetailreserve002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetailReserve001"
+        app:srcCompat="@drawable/ic_outline_calendar_month_24" />
+
+    <ImageView
+        android:id="@+id/ivDetailReserve003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivdetailreserve003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetailReserve002"
+        app:srcCompat="@drawable/ic_baseline_hourglass_top_24" />
+
+    <ImageView
+        android:id="@+id/ivDetailReserve004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivdetailreserve004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetailReserve003"
+        app:srcCompat="@drawable/ic_baseline_hourglass_bottom_24" />
+
+    <ImageView
+        android:id="@+id/ivDetailReserve001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivdetailreserve001"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_outline_calendar_month_24" />
+
+    <TextView
+        android:id="@+id/tvDetailReserve001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tvDetailReserve001"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivDetailReserve001"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvDetailReserve002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="19dp"
+        android:text="@string/tvDetailReserve002"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivDetailReserve002"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailReserve001" />
+
+    <TextView
+        android:id="@+id/tvDetailReserve003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/tvDetailReserve003"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivDetailReserve003"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailReserve002" />
+
+    <TextView
+        android:id="@+id/tvDetailReserve004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/tvDetailReserve004"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivDetailReserve004"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailReserve003" />
+
+    <ImageView
+        android:id="@+id/ivCardNutritionist"
+        android:layout_width="330dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="360dp"
+        android:contentDescription="@string/ivCardNutrionist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iv_adviser_details" />
+
+    <TextView
+        android:id="@+id/tvNutrionistPatients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvNutrionistPatients"
+        android:textColor="#121212"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivPersonsIcon"
+        app:layout_constraintTop_toBottomOf="@+id/tvNutrionistPrice" />
+
+    <TextView
+        android:id="@+id/tvNutrionistPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvNutrionistPrice"
+        android:textColor="#121212"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/ivCardNutritionist"
+        app:layout_constraintTop_toBottomOf="@+id/tvNutrionistSpeciality" />
+
+    <ImageView
+        android:id="@+id/ivStartLogo"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/starlogo"
+        app:layout_constraintStart_toStartOf="@+id/ivCardNutritionist"
+        app:layout_constraintTop_toTopOf="@+id/ivCardNutritionist"
+        app:srcCompat="@drawable/ic_baseline_star_border_24" />
+
+    <TextView
+        android:id="@+id/tvAvgRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvAvgRating"
+        android:textColor="#121212"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivStartLogo"
+        app:layout_constraintTop_toTopOf="@+id/ivCardNutritionist" />
+
+    <TextView
+        android:id="@+id/tvTotalReviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvToralReviews"
+        android:textColor="#121212"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/tvAvgRating"
+        app:layout_constraintTop_toTopOf="@+id/ivCardNutritionist" />
+
+    <TextView
+        android:id="@+id/tvNutrionistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/tvNutrionistName"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/ivCardNutritionist"
+        app:layout_constraintTop_toBottomOf="@+id/tvAvgRating" />
+
+    <TextView
+        android:id="@+id/tvNutrionistSpeciality"
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvNutrionistSpeciality"
+        android:textColor="#6A6262"
+        app:layout_constraintStart_toStartOf="@+id/ivCardNutritionist"
+        app:layout_constraintTop_toBottomOf="@+id/tvNutrionistName" />
+
+    <ImageView
+        android:id="@+id/ivPersonsIcon"
+        android:layout_width="19dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivPersonIcon"
+        app:layout_constraintStart_toStartOf="@+id/ivCardNutritionist"
+        app:layout_constraintTop_toBottomOf="@+id/tvNutrionistPrice"
+        app:srcCompat="@drawable/ic_baseline_people_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

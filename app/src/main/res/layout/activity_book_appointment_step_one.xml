@@ -4,6 +4,332 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".BookAppointmentStepOne">
+    <Button
+        android:id="@+id/btViewReservations"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#555555"
+        android:text="@string/btViewReservations"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/tvSuscriptionPlan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvPlanSubscription"
+        android:textColor="#121212"
+        app:layout_constraintStart_toEndOf="@+id/tvSeparator4"
+        app:layout_constraintTop_toBottomOf="@+id/tvChats"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvSeparator4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvSeparator"
+        android:textColor="#121212"
+        app:layout_constraintStart_toEndOf="@+id/tvUserRole2"
+        app:layout_constraintTop_toBottomOf="@+id/tvChats"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvChats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvUserName"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tvGreeting3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUserRole2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/tvUserRole"
+        android:textColor="#121212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreeting3"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvGreeting3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tvGreeting"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivUserProfileImage3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/ivUserProfileImageD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/presence_invisible" />
+
+    <TextView
+        android:id="@+id/tvDescriptionR"
+        android:layout_width="339dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvDescriptionR"
+        android:textColor="#121212"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvReserve" />
+
+    <TextView
+        android:id="@+id/tvReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tvReserve"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btViewReservations" />
+
+    <TextView
+        android:id="@+id/tvTypeOfConsulting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/tvTypeOfConsulting"
+        android:textColor="#121212"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionR" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTypeOfConsulting">
+
+        <RadioButton
+            android:id="@+id/rbOptionOne"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/rbOptionOne"
+            android:textColor="#121212"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rbOptionTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/rbOptionTwo"
+            android:textColor="#121212"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rbOptionThree"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/rbOptionThree"
+            android:textColor="#121212"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rbOptionFour"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/rbOptionFour"
+            android:textColor="#121212"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvLabelDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvLabelDate"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/tvLabelTimeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvLabelTimeStart"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDateReserve" />
+
+
+    <EditText
+        android:id="@+id/etDateReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/dDateReserve"
+        android:minHeight="48dp"
+        android:textColor="#121212"
+        android:textColorHint="#757575"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelDate"
+        tools:ignore="TextContrastCheck"
+        />
+
+    <EditText
+        android:id="@+id/etTimeStart"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/tTimeStart"
+        android:importantForAutofill="no"
+        android:inputType="time"
+        android:textColor="#121212"
+        android:textColorHint="#757575"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelTimeStart"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/etTimeEnd"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="84dp"
+        android:ems="10"
+        android:hint="@string/tTimeEnd"
+        android:importantForAutofill="no"
+        android:inputType="time"
+        android:textColor="#121212"
+        android:textColorHint="#757575"
+        android:clickable="false"
+        android:focusable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelTimeEnd"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/tvLabelTimeEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tvLabelTimeEnd"
+        android:textColor="#121212"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toEndOf="@+id/tvLabelTimeStart"
+        app:layout_constraintTop_toBottomOf="@+id/etDateReserve" />
+
+    <Button
+        android:id="@+id/btSearchNutritionist"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#47FF86"
+        android:text="@string/btSearchNutritionist"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTimeStart"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView3"
+        android:layout_width="415dp"
+        android:layout_height="60dp"
+        android:background="#47FF86"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/ivSettingsMenu2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="@string/ivsettingsmenu"
+            app:srcCompat="@drawable/ic_outline_settings_24"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/ivHomeMenu2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="@string/ivhomemenu"
+            app:srcCompat="@drawable/ic_outline_home_24"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/ivCalendarMenu2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="@string/ivcalendarmenu"
+            app:srcCompat="@drawable/ic_outline_calendar_today_24"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/ivChatMenu2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:contentDescription="@string/ivchatmenu"
+            app:srcCompat="@drawable/ic_outline_chat_24"
+            tools:ignore="ImageContrastCheck" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>

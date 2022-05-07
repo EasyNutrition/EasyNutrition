@@ -3,6 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.196" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout-v26/activity_patient_home_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_appl_step1.xml" value="0.25" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_appl_step2.xml" value="0.33" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_appl_step3.xml" value="0.18802083333333333" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_book_appointment_step_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_book_appointment_step_two.xml" value="0.5" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_patient_home_view.xml" value="0.5" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_patient3.xml" value="0.36666666666666664" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_patient_step2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_patient_step3.xml" value="0.35260416666666666" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_step1.xml" value="0.33" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_step2.xml" value="0.25" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_step3.xml" value="0.25" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_step_optional.xml" value="0.18802083333333333" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_register_step_patient1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Universidad/Ciclo 2022-01/EasyNutrition/EasyNutrition/app/src/main/res/layout/activity_type_of_user.xml" value="0.33" />
         <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/TP-Prototype - copia/app/src/main/res/layout/activity_register_step1.xml" value="0.21875" />
         <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/TP-Prototype - copia/app/src/main/res/layout/activity_register_step3.xml" value="0.21875" />
         <entry key="..\:/Users/User/Documents/UPC-Trabajos/Aplicaciones_para_Dispositivos_Moviles/TP/TP-Prototype - copia/app/src/main/res/layout/activity_register_step_optional.xml" value="0.21875" />

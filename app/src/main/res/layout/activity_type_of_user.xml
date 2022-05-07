@@ -4,6 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".TypeOfUser">
+
+    <TextView
+        android:id="@+id/tvSelectUserDescription"
+        android:layout_width="242dp"
+        android:layout_height="65dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tvSelectUserDescription"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectUserTitle" />
+
+    <Button
+        android:id="@+id/btSelectPatient"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:text="@string/btSelectPatient"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSelectPatient" />
+
+    <TextView
+        android:id="@+id/tvSelectUserTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/tvSelecUserTitle"
+        android:textColor="#121212"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivSelectNutritionist"
+        android:layout_width="126dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="44dp"
+        android:contentDescription="@string/tvSelectNutritionist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSelectPatient"
+        app:srcCompat="@drawable/iv_select_nutrionist" />
+
+    <Button
+        android:id="@+id/btSelectNutrionist"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#000000"
+        android:text="@string/btNutritionist"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSelectNutritionist" />
+
+    <ImageView
+        android:id="@+id/ivSelectPatient"
+        android:layout_width="126dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/ivSelectPatient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectUserDescription"
+        app:srcCompat="@drawable/iv_select_patient" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

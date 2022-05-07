@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyNutrition_Prototype">
         <activity
+            android:name=".BookAppointmentStepTwo"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentStepOne"
+            android:exported="false" />
+        <activity
+            android:name=".PatientHomeView"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPatientStep3"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPatientStep2"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPatient3"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterStepPatient2"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPatientStep1"
+            android:exported="false" />
+        <activity
+            android:name=".TypeOfUser"
+            android:exported="false" />
+        <activity
             android:name=".ApplStep3"
             android:exported="false" />
         <activity
